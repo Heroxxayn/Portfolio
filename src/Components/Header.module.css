@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: calc(100% - 10rem);
+    justify-content: space-between;   
+}
+
+.header h1{
+    color: #ec9b00;
+}
+
+.header .enable{
+    padding: 3px;
+    background: #ec9b00;;
+    width: 60px;
+    height: 26px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.header .enable .ball{
+    background-color: #000;
+    height: 100%;
+    width: 20px;
+    border-radius: 50%;
+}
