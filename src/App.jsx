@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./Pages/Index";
-import Layout from "./Layout/layout";
+import Layout from "./Layout/Layout";
 import Undefined from "./Pages/Undefined";
 export default function App() {
   return (
